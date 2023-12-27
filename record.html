@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyZone - страница регистрации</title>
+    <link rel="icon" href="images/logo-removebg-preview 1.png" type="image/png">
+    <link rel="stylesheet" href="style/recordPageStyle.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Оставьте ваши данные для регистрации и мы вам перезвоним</h1>
+    </header>
+    <div class="container-fluid">
+        <form action="http://localhost/myPHP/action.php" method="POST">
+            <label for="fname">Enter your name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <label for="sname">Enter your lastname</label>
+            <input type="text" name="lname" id="lname" placeholder="Lastname">
+            <label for="email">Enter your Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <label for="phone">Enter your phone number</label>
+            <input type="number" name="phone" id="phone" placeholder="Phone number">
+            <button type="submit" name="Submit" value="Submit">Submit</button>
+        </form>
+    </div>
+
+    <!--<form method="POST" action="http://localhost/myPHP/action.php">
+        <input name="name" type="text" placeholder="Имя"/>
+        <input name="text" type="text" placeholder="Текст"/>
+        <input type="submit" value="Отправить"/>
+       </form>-->
+
+
+
+
+    
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--JavaScript-->
+    <script src="script/script.js"></script>
+</body>
+</html>
